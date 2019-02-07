@@ -18,12 +18,6 @@
 				window.postMessage({ direction : "in", type : "haveAccess"}, "*");
 			});
 		},
-		getActiveAccount : function(){
-			return new Promise(function (resolve, reject) {
-				tbapiListener["getActiveAccount"] = resolve;
-				window.postMessage({ direction : "in", type : "getActiveAccount"}, "*");
-			});
-		},
 		getAllAccounts : function(){
 			return new Promise(function (resolve, reject) {
 				tbapiListener["getAllAccounts"] = resolve;
