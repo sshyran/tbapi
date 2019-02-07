@@ -56,7 +56,5 @@
 			});
 		}
 	}
-	if (typeof window.tbapiOnload != "undefined"){
-		window.tbapiOnload();
-	}
+	
 })();
