@@ -3,7 +3,7 @@ This is the API for the TezBox Browser Extension, which allows app developers to
 
 ## Installation
 
-Simply include the tbapi.js file into your website. This will create the window.tbapi variable which you can use to access the API.
+Simply include the tbapi.js file into your website. This will create the window.tbapi object which you can use to access the API.
 
 ## Usage
 
